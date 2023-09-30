@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "name": "giqpro",
+  "private": true,
+  "scripts": {
+    "all": "npm-run-all --parallel mf-shell mf-login mf-layout",
+    "mf-layout": "npm run start --prefix mf-shell",
+    "mf-login": "npm run start --prefix mf-login",
+    "mf-shell": "npm run start --prefix mf-layout"
+  },
+  "version": "1.0.0"
+}

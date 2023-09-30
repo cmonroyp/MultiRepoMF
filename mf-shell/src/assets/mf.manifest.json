@@ -1,0 +1,18 @@
+{
+    "dashboard": {
+        "displayName": "Dashboard",
+        "exposedModule": "./LayoutComponent",
+        "isStandalone": true,
+        "ngModuleName": "LayoutComponent",
+        "remoteEntry": "http://localhost:4202/remoteEntry.js",
+        "routePath": "dashboard"
+    },
+    "login": {
+        "displayName": "Login",
+        "exposedModule": "./LoginComponent",
+        "isStandalone": true,
+        "ngModuleName": "LoginComponent",
+        "remoteEntry": "http://localhost:4201/remoteEntry.js",
+        "routePath": "login"
+    }
+}
