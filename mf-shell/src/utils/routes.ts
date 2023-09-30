@@ -17,5 +17,6 @@ export function buildRoutes(options: CustomManifest): Routes {
         }).then((m) => m[entry.ngModuleName]),
     };
   });
-  return lazyRoutes;
+  //return lazyRoutes;
+  return [...APP_ROUTES, ...lazyRoutes];
 }
